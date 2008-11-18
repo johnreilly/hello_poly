@@ -6,4 +6,6 @@
     IBOutlet PolygonShape *polygon;
 }
 
++ (NSArray *)pointsForPolygonInRect:(CGRect)rect numberOfSides:(int)numberOfSides;
+
 @end

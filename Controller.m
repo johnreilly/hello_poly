@@ -20,6 +20,8 @@
 	increaseButton.enabled = ([polygon numberOfSides] < [polygon maximumNumberOfSides]);
 	
 	numberOfSidesLabel.text = [[NSNumber numberWithInt:[polygon numberOfSides]] stringValue];
+	
+	[polygonView setNeedsDisplay]; 
 }
 
 - (void)awakeFromNib {
