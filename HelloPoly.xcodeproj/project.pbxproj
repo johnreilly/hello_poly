@@ -15,6 +15,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		52E1BC270ED0F4CC0003EAA3 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */; };
 		52E1BC550ED0F61D0003EAA3 /* PolygonShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E1BC540ED0F61D0003EAA3 /* PolygonShape.m */; };
+		52E1BCB40ED37CDB0003EAA3 /* PolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		52E1BC260ED0F4CC0003EAA3 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Controller.m; path = ../Controller.m; sourceTree = "<group>"; };
 		52E1BC530ED0F61D0003EAA3 /* PolygonShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonShape.h; sourceTree = "<group>"; };
 		52E1BC540ED0F61D0003EAA3 /* PolygonShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonShape.m; sourceTree = "<group>"; };
+		52E1BCB20ED37CDB0003EAA3 /* PolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonView.h; sourceTree = "<group>"; };
+		52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +54,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				52E1BCB20ED37CDB0003EAA3 /* PolygonView.h */,
+				52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */,
 				52E1BC530ED0F61D0003EAA3 /* PolygonShape.h */,
 				52E1BC540ED0F61D0003EAA3 /* PolygonShape.m */,
 				52E1BC250ED0F4CC0003EAA3 /* Controller.h */,
@@ -166,6 +171,7 @@
 				1D3623260D0F684500981E51 /* HelloPolyAppDelegate.m in Sources */,
 				52E1BC270ED0F4CC0003EAA3 /* Controller.m in Sources */,
 				52E1BC550ED0F61D0003EAA3 /* PolygonShape.m in Sources */,
+				52E1BCB40ED37CDB0003EAA3 /* PolygonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

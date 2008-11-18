@@ -2,14 +2,14 @@
 {
 	1D3623240D0F684500981E51 /* HelloPolyAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 700}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 677}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 339}";
 		};
 	};
 	1D3623250D0F684500981E51 /* HelloPolyAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 700}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 677}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 495}";
 		};
@@ -223,7 +223,7 @@
 	};
 	52E1BC250ED0F4CC0003EAA3 /* Controller.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 700}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 677}}";
 			sepNavSelRange = "{342, 0}";
 			sepNavVisRange = "{0, 348}";
 			sepNavWindowFrame = "{{107, 231}, {750, 558}}";
@@ -462,8 +462,8 @@
 	52E1BC540ED0F61D0003EAA3 /* PolygonShape.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 1722}}";
-			sepNavSelRange = "{2533, 0}";
-			sepNavVisRange = "{0, 1181}";
+			sepNavSelRange = "{1849, 0}";
+			sepNavVisRange = "{1588, 953}";
 		};
 	};
 	52E1BC560ED0F6660003EAA3 /* PBXTextBookmark */ = {
@@ -1063,5 +1063,19 @@
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 0;
+	};
+	52E1BCB20ED37CDB0003EAA3 /* PolygonView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 677}}";
+			sepNavSelRange = "{90, 0}";
+			sepNavVisRange = "{0, 137}";
+		};
+	};
+	52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 677}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 59}";
+		};
 	};
 }
