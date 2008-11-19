@@ -33,7 +33,7 @@
 }
 
 - (void)awakeFromNib {
-	[polygon setMinimumNumberOfSides:3];
+	[polygon setMinimumNumberOfSides:2];
 	[polygon setMaximumNumberOfSides:12];
 	[polygon setNumberOfSides:3];
 	
