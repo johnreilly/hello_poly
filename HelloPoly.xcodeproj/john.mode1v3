@@ -301,7 +301,7 @@
 							<real>187</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>4 98 1440 778 0 0 1440 878 </string>
+						<string>5 99 1440 778 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -331,17 +331,17 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>52E1BD1E0ED3BF180003EAA3</string>
+										<string>52E1BD2D0ED487380003EAA3</string>
 										<key>history</key>
 										<array>
-											<string>52E1BC710ED0F77E0003EAA3</string>
 											<string>52E1BCB80ED37DB40003EAA3</string>
 											<string>52E1BCB90ED37DB40003EAA3</string>
 											<string>52E1BCD30ED37E890003EAA3</string>
 											<string>52E1BCFA0ED3BBFC0003EAA3</string>
 											<string>52E1BCFB0ED3BBFC0003EAA3</string>
-											<string>52E1BD120ED3BDA80003EAA3</string>
-											<string>52E1BD130ED3BDA80003EAA3</string>
+											<string>52E1BD270ED487380003EAA3</string>
+											<string>52E1BD280ED487380003EAA3</string>
+											<string>52E1BD290ED487380003EAA3</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -390,6 +390,9 @@
 											<string>52E1BCFF0ED3BBFC0003EAA3</string>
 											<string>52E1BD140ED3BDA80003EAA3</string>
 											<string>52E1BD150ED3BDA80003EAA3</string>
+											<string>52E1BD2A0ED487380003EAA3</string>
+											<string>52E1BD2B0ED487380003EAA3</string>
+											<string>52E1BD2C0ED487380003EAA3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -403,7 +406,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1231, 732}}</string>
 								<key>RubberWindowFrame</key>
-								<string>4 98 1440 778 0 0 1440 878 </string>
+								<string>5 99 1440 778 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -423,7 +426,7 @@
 								<key>Frame</key>
 								<string>{{0, 737}, {1231, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>4 98 1440 778 0 0 1440 878 </string>
+								<string>5 99 1440 778 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -586,13 +589,13 @@
 		<string>52E1BD060ED3BC6D0003EAA3</string>
 		<string>52E1BC810ED371C80003EAA3</string>
 		<string>52E1BC7D0ED0F7FE0003EAA3</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>52E1BC310ED0F4F80003EAA3</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/john/src/iphone/cs193p/HelloPoly/HelloPoly.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>4 98 1440 778 0 0 1440 878 </string>
+	<string>5 99 1440 778 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -971,7 +974,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

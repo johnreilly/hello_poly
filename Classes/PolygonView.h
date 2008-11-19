@@ -5,6 +5,7 @@
 
 @interface PolygonView : UIView {
     IBOutlet PolygonShape *polygon;
+	IBOutlet UILabel *shapeLabel;
 }
 
 + (NSArray *)pointsForPolygonInRect:(CGRect)rect numberOfSides:(int)numberOfSides;

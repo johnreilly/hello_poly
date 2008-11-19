@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">352.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="22"/>
+			<integer value="2"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -108,9 +108,27 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MyAwLjMwOTgwMzkzIDAuNTIxNTY4NjYAA</bytes>
 						</object>
 					</object>
-					<object class="IBUIView" id="947838104">
+					<object class="IBUIView" id="412457286">
 						<reference key="NSNextResponder" ref="380026005"/>
 						<int key="NSvFlags">1316</int>
+						<object class="NSMutableArray" key="NSSubviews">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBUILabel" id="415561982">
+								<reference key="NSNextResponder" ref="412457286"/>
+								<int key="NSvFlags">1316</int>
+								<string key="NSFrame">{{20, 305}, {240, 21}}</string>
+								<reference key="NSSuperview" ref="412457286"/>
+								<bool key="IBUIOpaque">NO</bool>
+								<bool key="IBUIClipsSubviews">YES</bool>
+								<bool key="IBUIUserInteractionEnabled">NO</bool>
+								<string key="IBUIText">Shape</string>
+								<reference key="IBUITextColor" ref="688715562"/>
+								<nil key="IBUIHighlightedColor"/>
+								<int key="IBUIBaselineAdjustment">1</int>
+								<float key="IBUIMinimumFontSize">1.000000e+01</float>
+								<int key="IBUITextAlignment">1</int>
+							</object>
+						</object>
 						<string key="NSFrame">{{20, 114}, {280, 346}}</string>
 						<reference key="NSSuperview" ref="380026005"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
@@ -132,7 +150,7 @@
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 			</object>
 			<object class="IBUICustomObject" id="616872834"/>
-			<object class="IBUICustomObject" id="769607927"/>
+			<object class="IBUICustomObject" id="660432619"/>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
 			<object class="NSMutableArray" key="connectionRecords">
@@ -199,15 +217,15 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">polygon</string>
 						<reference key="source" ref="616872834"/>
-						<reference key="destination" ref="769607927"/>
+						<reference key="destination" ref="660432619"/>
 					</object>
 					<int key="connectionID">21</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">polygon</string>
-						<reference key="source" ref="947838104"/>
-						<reference key="destination" ref="769607927"/>
+						<reference key="source" ref="412457286"/>
+						<reference key="destination" ref="660432619"/>
 					</object>
 					<int key="connectionID">23</int>
 				</object>
@@ -215,9 +233,17 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">polygonView</string>
 						<reference key="source" ref="616872834"/>
-						<reference key="destination" ref="947838104"/>
+						<reference key="destination" ref="412457286"/>
 					</object>
 					<int key="connectionID">24</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">shapeLabel</string>
+						<reference key="source" ref="412457286"/>
+						<reference key="destination" ref="415561982"/>
+					</object>
+					<int key="connectionID">26</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -240,7 +266,7 @@
 							<reference ref="497948619"/>
 							<reference ref="503189591"/>
 							<reference ref="611685583"/>
-							<reference ref="947838104"/>
+							<reference ref="412457286"/>
 						</object>
 						<reference key="parent" ref="957960031"/>
 					</object>
@@ -287,13 +313,22 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">20</int>
-						<reference key="object" ref="769607927"/>
+						<reference key="object" ref="660432619"/>
 						<reference key="parent" ref="957960031"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">22</int>
-						<reference key="object" ref="947838104"/>
+						<reference key="object" ref="412457286"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="415561982"/>
+						</object>
 						<reference key="parent" ref="380026005"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">25</int>
+						<reference key="object" ref="415561982"/>
+						<reference key="parent" ref="412457286"/>
 					</object>
 				</object>
 			</object>
@@ -316,6 +351,7 @@
 					<string>20.IBPluginDependency</string>
 					<string>22.CustomClassName</string>
 					<string>22.IBPluginDependency</string>
+					<string>25.IBPluginDependency</string>
 					<string>3.CustomClassName</string>
 					<string>3.IBPluginDependency</string>
 				</object>
@@ -344,6 +380,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>PolygonView</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>HelloPolyAppDelegate</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
@@ -368,7 +405,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">24</int>
+			<int key="maxID">26</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -464,6 +501,10 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">PolygonView</string>
 					<string key="superclassName">UIView</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">shapeLabel</string>
+						<string key="NS.object.0">UILabel</string>
+					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBUserSource</string>
 						<string key="minorKey"/>

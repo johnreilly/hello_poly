@@ -5,15 +5,6 @@
 - (void)drawRect:(CGRect)rect {
 	NSLog(@"drawing view");
 	
-//	CGRect bounds = [self bounds]; 
-//	[[UIColor grayColor] set]; 
-//	UIRectFill (bounds); 
-//	CGRect square = CGRectMake (10, 10, 50, 100); 
-//	[[UIColor redColor] set]; 
-//	UIRectFill (square); 
-//	[[UIColor blackColor] set]; 
-//	UIRectFrame (square);
-	
 	CGContextRef context = UIGraphicsGetCurrentContext(); 
 	
 	//draw frame
@@ -45,6 +36,8 @@
 	[[UIColor redColor] setFill]; 
 	[[UIColor blackColor] setStroke]; 
 	CGContextDrawPath (context, kCGPathFillStroke);
+	
+	shapeLabel.text = [polygon name];
 }
 
 

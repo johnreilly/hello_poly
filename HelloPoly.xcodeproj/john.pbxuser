@@ -198,6 +198,16 @@
 			52E1BD150ED3BDA80003EAA3 /* PBXTextBookmark */ = 52E1BD150ED3BDA80003EAA3 /* PBXTextBookmark */;
 			52E1BD160ED3BDA80003EAA3 /* PBXTextBookmark */ = 52E1BD160ED3BDA80003EAA3 /* PBXTextBookmark */;
 			52E1BD1E0ED3BF180003EAA3 /* PBXTextBookmark */ = 52E1BD1E0ED3BF180003EAA3 /* PBXTextBookmark */;
+			52E1BD1F0ED3BFAE0003EAA3 /* PBXTextBookmark */ = 52E1BD1F0ED3BFAE0003EAA3 /* PBXTextBookmark */;
+			52E1BD200ED3BFB00003EAA3 /* PBXTextBookmark */ = 52E1BD200ED3BFB00003EAA3 /* PBXTextBookmark */;
+			52E1BD220ED486280003EAA3 /* PBXTextBookmark */ = 52E1BD220ED486280003EAA3 /* PBXTextBookmark */;
+			52E1BD270ED487380003EAA3 /* PBXTextBookmark */ = 52E1BD270ED487380003EAA3 /* PBXTextBookmark */;
+			52E1BD280ED487380003EAA3 /* PBXTextBookmark */ = 52E1BD280ED487380003EAA3 /* PBXTextBookmark */;
+			52E1BD290ED487380003EAA3 /* PBXTextBookmark */ = 52E1BD290ED487380003EAA3 /* PBXTextBookmark */;
+			52E1BD2A0ED487380003EAA3 /* PBXTextBookmark */ = 52E1BD2A0ED487380003EAA3 /* PBXTextBookmark */;
+			52E1BD2B0ED487380003EAA3 /* PBXTextBookmark */ = 52E1BD2B0ED487380003EAA3 /* PBXTextBookmark */;
+			52E1BD2C0ED487380003EAA3 /* PBXTextBookmark */ = 52E1BD2C0ED487380003EAA3 /* PBXTextBookmark */;
+			52E1BD2D0ED487380003EAA3 /* PBXTextBookmark */ = 52E1BD2D0ED487380003EAA3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 52E1BC1E0ED0F1B40003EAA3 /* Source Control */;
 		userBuildSettings = {
@@ -509,9 +519,9 @@
 	};
 	52E1BC530ED0F61D0003EAA3 /* PolygonShape.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {843, 448}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1170, 677}}";
 			sepNavSelRange = "{148, 0}";
-			sepNavVisRange = "{0, 454}";
+			sepNavVisRange = "{0, 611}";
 		};
 	};
 	52E1BC540ED0F61D0003EAA3 /* PolygonShape.m */ = {
@@ -1121,16 +1131,16 @@
 	};
 	52E1BCB20ED37CDB0003EAA3 /* PolygonView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1170, 700}}";
-			sepNavSelRange = "{95, 0}";
-			sepNavVisRange = "{0, 284}";
+			sepNavIntBoundsRect = "{{0, 0}, {1170, 677}}";
+			sepNavSelRange = "{155, 0}";
+			sepNavVisRange = "{0, 315}";
 		};
 	};
 	52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1170, 1008}}";
-			sepNavSelRange = "{1037, 0}";
-			sepNavVisRange = "{25, 1387}";
+			sepNavIntBoundsRect = "{{0, 0}, {1170, 868}}";
+			sepNavSelRange = "{1104, 0}";
+			sepNavVisRange = "{0, 1441}";
 		};
 	};
 	52E1BCB80ED37DB40003EAA3 /* PBXTextBookmark */ = {
@@ -1178,7 +1188,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 6";
 		rLen = 0;
-		rLoc = 1322;
+		rLoc = 1104;
 		rType = 0;
 		vrLen = 119;
 		vrLoc = 0;
@@ -1298,7 +1308,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 6";
 		rLen = 0;
-		rLoc = 1322;
+		rLoc = 1104;
 		rType = 0;
 		vrLen = 119;
 		vrLoc = 0;
@@ -1378,7 +1388,7 @@
 		fRef = 52E1BCB20ED37CDB0003EAA3 /* PolygonView.h */;
 		name = "PolygonView.h: 9";
 		rLen = 0;
-		rLoc = 277;
+		rLoc = 308;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 0;
@@ -1388,7 +1398,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 10";
 		rLen = 81;
-		rLoc = 1327;
+		rLoc = 1109;
 		rType = 0;
 		vrLen = 864;
 		vrLoc = 0;
@@ -1418,7 +1428,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 10";
 		rLen = 81;
-		rLoc = 1327;
+		rLoc = 1109;
 		rType = 0;
 		vrLen = 864;
 		vrLoc = 0;
@@ -1428,7 +1438,7 @@
 		fRef = 52E1BCB20ED37CDB0003EAA3 /* PolygonView.h */;
 		name = "PolygonView.h: 9";
 		rLen = 0;
-		rLoc = 277;
+		rLoc = 308;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 0;
@@ -1438,7 +1448,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 8";
 		rLen = 0;
-		rLoc = 1325;
+		rLoc = 1107;
 		rType = 0;
 		vrLen = 864;
 		vrLoc = 0;
@@ -1448,7 +1458,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 15";
 		rLen = 0;
-		rLoc = 1322;
+		rLoc = 1104;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 0;
@@ -1458,7 +1468,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 27";
 		rLen = 0;
-		rLoc = 1322;
+		rLoc = 1104;
 		rType = 0;
 		vrLen = 1552;
 		vrLoc = 0;
@@ -1468,7 +1478,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 21";
 		rLen = 0;
-		rLoc = 856;
+		rLoc = 601;
 		rType = 0;
 		vrLen = 1602;
 		vrLoc = 0;
@@ -1478,7 +1488,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 21";
 		rLen = 0;
-		rLoc = 540;
+		rLoc = 285;
 		rType = 0;
 		vrLen = 1603;
 		vrLoc = 0;
@@ -1488,7 +1498,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 27";
 		rLen = 0;
-		rLoc = 854;
+		rLoc = 599;
 		rType = 0;
 		vrLen = 1507;
 		vrLoc = 0;
@@ -1518,7 +1528,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 27";
 		rLen = 0;
-		rLoc = 854;
+		rLoc = 599;
 		rType = 0;
 		vrLen = 1545;
 		vrLoc = 0;
@@ -1528,7 +1538,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 27";
 		rLen = 0;
-		rLoc = 854;
+		rLoc = 599;
 		rType = 0;
 		vrLen = 1545;
 		vrLoc = 0;
@@ -1558,7 +1568,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 27";
 		rLen = 0;
-		rLoc = 854;
+		rLoc = 599;
 		rType = 0;
 		vrLen = 1517;
 		vrLoc = 254;
@@ -1568,7 +1578,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 27";
 		rLen = 0;
-		rLoc = 854;
+		rLoc = 599;
 		rType = 0;
 		vrLen = 1490;
 		vrLoc = 0;
@@ -1578,7 +1588,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 28";
 		rLen = 0;
-		rLoc = 854;
+		rLoc = 599;
 		rType = 0;
 		vrLen = 1520;
 		vrLoc = 0;
@@ -1598,7 +1608,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 27";
 		rLen = 0;
-		rLoc = 854;
+		rLoc = 599;
 		rType = 0;
 		vrLen = 1437;
 		vrLoc = 0;
@@ -1608,7 +1618,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 27";
 		rLen = 0;
-		rLoc = 854;
+		rLoc = 599;
 		rType = 0;
 		vrLen = 1437;
 		vrLoc = 0;
@@ -1628,7 +1638,7 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 28";
 		rLen = 0;
-		rLoc = 811;
+		rLoc = 556;
 		rType = 0;
 		vrLen = 1581;
 		vrLoc = 25;
@@ -1638,9 +1648,109 @@
 		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
 		name = "PolygonView.m: 39";
 		rLen = 0;
-		rLoc = 1037;
+		rLoc = 782;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 25;
+	};
+	52E1BD1F0ED3BFAE0003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC530ED0F61D0003EAA3 /* PolygonShape.h */;
+		name = "PolygonShape.h: 9";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 368;
+		vrLoc = 0;
+	};
+	52E1BD200ED3BFB00003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
+		name = "PolygonView.m: 39";
+		rLen = 0;
+		rLoc = 782;
+		rType = 0;
+		vrLen = 1387;
+		vrLoc = 25;
+	};
+	52E1BD220ED486280003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
+		name = "PolygonView.m: 6";
+		rLen = 0;
+		rLoc = 110;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 54;
+	};
+	52E1BD270ED487380003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC530ED0F61D0003EAA3 /* PolygonShape.h */;
+		name = "PolygonShape.h: 9";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 0;
+	};
+	52E1BD280ED487380003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BCB20ED37CDB0003EAA3 /* PolygonView.h */;
+		name = "PolygonView.h: 6";
+		rLen = 0;
+		rLoc = 155;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 0;
+	};
+	52E1BD290ED487380003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
+		name = "PolygonView.m: 6";
+		rLen = 0;
+		rLoc = 110;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 54;
+	};
+	52E1BD2A0ED487380003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
+		name = "PolygonView.m: 6";
+		rLen = 0;
+		rLoc = 110;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 54;
+	};
+	52E1BD2B0ED487380003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC530ED0F61D0003EAA3 /* PolygonShape.h */;
+		name = "PolygonShape.h: 9";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 0;
+	};
+	52E1BD2C0ED487380003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BCB20ED37CDB0003EAA3 /* PolygonView.h */;
+		name = "PolygonView.h: 6";
+		rLen = 0;
+		rLoc = 155;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 0;
+	};
+	52E1BD2D0ED487380003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
+		name = "PolygonView.m: 40";
+		rLen = 0;
+		rLoc = 1104;
+		rType = 0;
+		vrLen = 1441;
+		vrLoc = 0;
 	};
 }
