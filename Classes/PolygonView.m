@@ -15,12 +15,32 @@
 //	UIRectFrame (square);
 	
 	CGContextRef context = UIGraphicsGetCurrentContext(); 
+	
+	//draw frame
 	[[UIColor grayColor] set]; 
 	UIRectFill ([self bounds]); 
+	[[UIColor blackColor] set];
+	UIRectFrame([self bounds]);
+	
+	//set up points for polygon
 	CGContextBeginPath (context); 
-	CGContextMoveToPoint (context, 75, 10); 
-	CGContextAddLineToPoint (context, 10, 150); 
-	CGContextAddLineToPoint (context, 160, 150); 
+	
+	//create first point
+	NSArray *point_array = [PolygonView pointsForPolygonInRect:[self bounds] numberOfSides:[polygon numberOfSides]];
+	NSValue *theValue = [point_array objectAtIndex:0];
+	CGPoint thePoint = [theValue CGPointValue];
+	
+	CGContextMoveToPoint (context, thePoint.x, thePoint.y); 
+	
+	//create remaining points
+	NSRange range;
+	range.location = 1;
+	range.length = [point_array count] - 1;
+	for (NSValue *val in [point_array subarrayWithRange:range]){
+		CGPoint pt = [val CGPointValue];
+		CGContextAddLineToPoint (context, pt.x, pt.y); 
+	}
+	
 	CGContextClosePath (context); 
 	[[UIColor redColor] setFill]; 
 	[[UIColor blackColor] setStroke]; 
