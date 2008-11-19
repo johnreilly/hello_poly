@@ -13,6 +13,12 @@
 	[self updateInterface];
 }
 
+- (IBAction)sliderChanged {
+    NSLog(@"slider changed");
+	[polygon setNumberOfSides:slider.value];
+	[self updateInterface];
+}
+
 - (void)updateInterface {
 	NSLog(@"updating interface");
 	
@@ -21,6 +27,8 @@
 	
 	numberOfSidesLabel.text = [[NSNumber numberWithInt:[polygon numberOfSides]] stringValue];
 	
+	slider.value = [polygon numberOfSides];
+	
 	[polygonView setNeedsDisplay]; 
 }
 
@@ -28,6 +36,11 @@
 	[polygon setMinimumNumberOfSides:3];
 	[polygon setMaximumNumberOfSides:12];
 	[polygon setNumberOfSides:3];
+	
+	slider.minimumValue = polygon.minimumNumberOfSides;
+	slider.maximumValue = polygon.maximumNumberOfSides;
+	slider.value = polygon.numberOfSides;
+	
 	[self updateInterface];
 	
 	NSLog(@"Configured polygon: %@", polygon);

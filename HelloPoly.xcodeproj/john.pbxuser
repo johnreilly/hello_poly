@@ -208,6 +208,24 @@
 			52E1BD2B0ED487380003EAA3 /* PBXTextBookmark */ = 52E1BD2B0ED487380003EAA3 /* PBXTextBookmark */;
 			52E1BD2C0ED487380003EAA3 /* PBXTextBookmark */ = 52E1BD2C0ED487380003EAA3 /* PBXTextBookmark */;
 			52E1BD2D0ED487380003EAA3 /* PBXTextBookmark */ = 52E1BD2D0ED487380003EAA3 /* PBXTextBookmark */;
+			52E1BD310ED489800003EAA3 /* PBXTextBookmark */ = 52E1BD310ED489800003EAA3 /* PBXTextBookmark */;
+			52E1BD320ED489800003EAA3 /* PBXTextBookmark */ = 52E1BD320ED489800003EAA3 /* PBXTextBookmark */;
+			52E1BD330ED489800003EAA3 /* PBXTextBookmark */ = 52E1BD330ED489800003EAA3 /* PBXTextBookmark */;
+			52E1BD340ED489800003EAA3 /* PBXTextBookmark */ = 52E1BD340ED489800003EAA3 /* PBXTextBookmark */;
+			52E1BD370ED48A220003EAA3 /* PBXTextBookmark */ = 52E1BD370ED48A220003EAA3 /* PBXTextBookmark */;
+			52E1BD380ED48A220003EAA3 /* PBXTextBookmark */ = 52E1BD380ED48A220003EAA3 /* PBXTextBookmark */;
+			52E1BD390ED48A220003EAA3 /* PBXTextBookmark */ = 52E1BD390ED48A220003EAA3 /* PBXTextBookmark */;
+			52E1BD3A0ED48A220003EAA3 /* PBXTextBookmark */ = 52E1BD3A0ED48A220003EAA3 /* PBXTextBookmark */;
+			52E1BD3B0ED48A220003EAA3 /* PBXTextBookmark */ = 52E1BD3B0ED48A220003EAA3 /* PBXTextBookmark */;
+			52E1BD3C0ED48A220003EAA3 /* PBXTextBookmark */ = 52E1BD3C0ED48A220003EAA3 /* PBXTextBookmark */;
+			52E1BD3E0ED48A570003EAA3 /* PBXTextBookmark */ = 52E1BD3E0ED48A570003EAA3 /* PBXTextBookmark */;
+			52E1BD3F0ED48AAD0003EAA3 /* PBXTextBookmark */ = 52E1BD3F0ED48AAD0003EAA3 /* PBXTextBookmark */;
+			52E1BD400ED48AAD0003EAA3 /* PBXTextBookmark */ = 52E1BD400ED48AAD0003EAA3 /* PBXTextBookmark */;
+			52E1BD410ED48AAD0003EAA3 /* PBXTextBookmark */ = 52E1BD410ED48AAD0003EAA3 /* PBXTextBookmark */;
+			52E1BD420ED48AAD0003EAA3 /* PBXTextBookmark */ = 52E1BD420ED48AAD0003EAA3 /* PBXTextBookmark */;
+			52E1BD450ED48AFE0003EAA3 /* PBXTextBookmark */ = 52E1BD450ED48AFE0003EAA3 /* PBXTextBookmark */;
+			52E1BD460ED48AFE0003EAA3 /* PBXTextBookmark */ = 52E1BD460ED48AFE0003EAA3 /* PBXTextBookmark */;
+			52E1BD470ED48AFE0003EAA3 /* PBXTextBookmark */ = 52E1BD470ED48AFE0003EAA3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 52E1BC1E0ED0F1B40003EAA3 /* Source Control */;
 		userBuildSettings = {
@@ -288,17 +306,17 @@
 	};
 	52E1BC250ED0F4CC0003EAA3 /* Controller.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 700}}";
-			sepNavSelRange = "{220, 0}";
-			sepNavVisRange = "{0, 408}";
+			sepNavIntBoundsRect = "{{0, 0}, {1170, 677}}";
+			sepNavSelRange = "{432, 0}";
+			sepNavVisRange = "{0, 463}";
 			sepNavWindowFrame = "{{107, 231}, {750, 558}}";
 		};
 	};
 	52E1BC260ED0F4CC0003EAA3 /* Controller.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 677}}";
-			sepNavSelRange = "{593, 0}";
-			sepNavVisRange = "{0, 932}";
+			sepNavIntBoundsRect = "{{0, 0}, {1170, 686}}";
+			sepNavSelRange = "{485, 0}";
+			sepNavVisRange = "{0, 1252}";
 		};
 	};
 	52E1BC280ED0F4F80003EAA3 /* PBXTextBookmark */ = {
@@ -396,7 +414,7 @@
 		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
 		name = "Controller.h: 9";
 		rLen = 0;
-		rLoc = 354;
+		rLoc = 382;
 		rType = 0;
 		vrLen = 309;
 		vrLoc = 0;
@@ -406,7 +424,7 @@
 		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
 		name = "Controller.h: 9";
 		rLen = 0;
-		rLoc = 354;
+		rLoc = 382;
 		rType = 0;
 		vrLen = 308;
 		vrLoc = 0;
@@ -442,7 +460,7 @@
 		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
 		name = "Controller.h: 9";
 		rLen = 0;
-		rLoc = 354;
+		rLoc = 382;
 		rType = 0;
 		vrLen = 308;
 		vrLoc = 0;
@@ -472,7 +490,7 @@
 		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
 		name = "Controller.h: 9";
 		rLen = 0;
-		rLoc = 355;
+		rLoc = 383;
 		rType = 0;
 		vrLen = 265;
 		vrLoc = 0;
@@ -482,7 +500,7 @@
 		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
 		name = "Controller.h: 9";
 		rLen = 0;
-		rLoc = 355;
+		rLoc = 383;
 		rType = 0;
 		vrLen = 265;
 		vrLoc = 0;
@@ -502,7 +520,7 @@
 		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
 		name = "Controller.h: 9";
 		rLen = 0;
-		rLoc = 355;
+		rLoc = 383;
 		rType = 0;
 		vrLen = 265;
 		vrLoc = 0;
@@ -834,7 +852,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 16";
 		rLen = 0;
-		rLoc = 926;
+		rLoc = 1246;
 		rType = 0;
 		vrLen = 342;
 		vrLoc = 0;
@@ -844,7 +862,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 17";
 		rLen = 0;
-		rLoc = 924;
+		rLoc = 1244;
 		rType = 0;
 		vrLen = 388;
 		vrLoc = 0;
@@ -864,7 +882,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 17";
 		rLen = 0;
-		rLoc = 924;
+		rLoc = 1244;
 		rType = 0;
 		vrLen = 388;
 		vrLoc = 0;
@@ -874,7 +892,7 @@
 		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
 		name = "Controller.h: 13";
 		rLen = 0;
-		rLoc = 402;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 348;
 		vrLoc = 0;
@@ -904,7 +922,7 @@
 		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
 		name = "Controller.h: 13";
 		rLen = 0;
-		rLoc = 402;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 348;
 		vrLoc = 0;
@@ -914,7 +932,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 14";
 		rLen = 0;
-		rLoc = 719;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 490;
 		vrLoc = 0;
@@ -944,7 +962,7 @@
 		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
 		name = "Controller.h: 13";
 		rLen = 0;
-		rLoc = 402;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 348;
 		vrLoc = 0;
@@ -964,7 +982,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 18";
 		rLen = 0;
-		rLoc = 719;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 697;
 		vrLoc = 0;
@@ -974,7 +992,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 18";
 		rLen = 0;
-		rLoc = 719;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 644;
 		vrLoc = 0;
@@ -984,7 +1002,7 @@
 		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
 		name = "Controller.h: 13";
 		rLen = 0;
-		rLoc = 402;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 348;
 		vrLoc = 0;
@@ -994,7 +1012,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 18";
 		rLen = 0;
-		rLoc = 719;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 697;
 		vrLoc = 0;
@@ -1014,7 +1032,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 18";
 		rLen = 0;
-		rLoc = 719;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 643;
 		vrLoc = 0;
@@ -1024,7 +1042,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 18";
 		rLen = 0;
-		rLoc = 595;
+		rLoc = 723;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 0;
@@ -1034,7 +1052,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 18";
 		rLen = 0;
-		rLoc = 719;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 0;
@@ -1044,7 +1062,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 20";
 		rLen = 0;
-		rLoc = 591;
+		rLoc = 719;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 0;
@@ -1054,7 +1072,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 19";
 		rLen = 0;
-		rLoc = 472;
+		rLoc = 600;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 0;
@@ -1064,7 +1082,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 19";
 		rLen = 0;
-		rLoc = 472;
+		rLoc = 600;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 0;
@@ -1074,7 +1092,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 19";
 		rLen = 0;
-		rLoc = 472;
+		rLoc = 600;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 0;
@@ -1084,7 +1102,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 19";
 		rLen = 0;
-		rLoc = 472;
+		rLoc = 600;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 0;
@@ -1104,7 +1122,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 28";
 		rLen = 0;
-		rLoc = 851;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 0;
@@ -1114,7 +1132,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 28";
 		rLen = 0;
-		rLoc = 851;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 0;
@@ -1124,7 +1142,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 28";
 		rLen = 0;
-		rLoc = 851;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 0;
@@ -1168,7 +1186,7 @@
 		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
 		name = "Controller.h: 13";
 		rLen = 0;
-		rLoc = 402;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 348;
 		vrLoc = 0;
@@ -1208,7 +1226,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 28";
 		rLen = 0;
-		rLoc = 851;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 0;
@@ -1218,7 +1236,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 28";
 		rLen = 0;
-		rLoc = 851;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 0;
@@ -1248,7 +1266,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 28";
 		rLen = 0;
-		rLoc = 851;
+		rLoc = 1022;
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 0;
@@ -1258,7 +1276,7 @@
 		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
 		name = "Controller.h: 13";
 		rLen = 0;
-		rLoc = 402;
+		rLoc = 457;
 		rType = 0;
 		vrLen = 348;
 		vrLoc = 0;
@@ -1328,7 +1346,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 24";
 		rLen = 0;
-		rLoc = 719;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 0;
@@ -1338,7 +1356,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 14";
 		rLen = 0;
-		rLoc = 359;
+		rLoc = 487;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 0;
@@ -1348,7 +1366,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 14";
 		rLen = 0;
-		rLoc = 359;
+		rLoc = 487;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 0;
@@ -1378,7 +1396,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 21";
 		rLen = 0;
-		rLoc = 593;
+		rLoc = 721;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 0;
@@ -1418,7 +1436,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 21";
 		rLen = 0;
-		rLoc = 593;
+		rLoc = 721;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 0;
@@ -1518,7 +1536,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 21";
 		rLen = 0;
-		rLoc = 593;
+		rLoc = 721;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 0;
@@ -1558,7 +1576,7 @@
 		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
 		name = "Controller.m: 21";
 		rLen = 0;
-		rLoc = 593;
+		rLoc = 721;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 0;
@@ -1751,6 +1769,186 @@
 		rLoc = 1104;
 		rType = 0;
 		vrLen = 1441;
+		vrLoc = 0;
+	};
+	52E1BD310ED489800003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
+		name = "PolygonView.m: 40";
+		rLen = 0;
+		rLoc = 1104;
+		rType = 0;
+		vrLen = 1441;
+		vrLoc = 0;
+	};
+	52E1BD320ED489800003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
+		name = "Controller.h: 8";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 0;
+	};
+	52E1BD330ED489800003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BCB30ED37CDB0003EAA3 /* PolygonView.m */;
+		name = "PolygonView.m: 40";
+		rLen = 0;
+		rLoc = 1104;
+		rType = 0;
+		vrLen = 1441;
+		vrLoc = 0;
+	};
+	52E1BD340ED489800003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
+		name = "Controller.h: 10";
+		rLen = 0;
+		rLoc = 290;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 0;
+	};
+	52E1BD370ED48A220003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
+		name = "Controller.h: 8";
+		rLen = 0;
+		rLoc = 198;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 0;
+	};
+	52E1BD380ED48A220003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
+		name = "Controller.m: 21";
+		rLen = 0;
+		rLoc = 721;
+		rType = 0;
+		vrLen = 932;
+		vrLoc = 0;
+	};
+	52E1BD390ED48A220003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
+		name = "Controller.h: 8";
+		rLen = 0;
+		rLoc = 198;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 0;
+	};
+	52E1BD3A0ED48A220003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
+		name = "Controller.m: 21";
+		rLen = 0;
+		rLoc = 721;
+		rType = 0;
+		vrLen = 932;
+		vrLoc = 0;
+	};
+	52E1BD3B0ED48A220003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
+		name = "Controller.h: 8";
+		rLen = 0;
+		rLoc = 198;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 0;
+	};
+	52E1BD3C0ED48A220003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
+		name = "Controller.m: 24";
+		rLen = 0;
+		rLoc = 855;
+		rType = 0;
+		vrLen = 975;
+		vrLoc = 0;
+	};
+	52E1BD3E0ED48A570003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
+		name = "Controller.m: 37";
+		rLen = 0;
+		rLoc = 1173;
+		rType = 0;
+		vrLen = 1124;
+		vrLoc = 0;
+	};
+	52E1BD3F0ED48AAD0003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
+		name = "Controller.m: 37";
+		rLen = 0;
+		rLoc = 1173;
+		rType = 0;
+		vrLen = 1124;
+		vrLoc = 0;
+	};
+	52E1BD400ED48AAD0003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
+		name = "Controller.h: 8";
+		rLen = 0;
+		rLoc = 198;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 0;
+	};
+	52E1BD410ED48AAD0003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
+		name = "Controller.m: 37";
+		rLen = 0;
+		rLoc = 1173;
+		rType = 0;
+		vrLen = 1124;
+		vrLoc = 0;
+	};
+	52E1BD420ED48AAD0003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
+		name = "Controller.h: 16";
+		rLen = 0;
+		rLoc = 432;
+		rType = 0;
+		vrLen = 463;
+		vrLoc = 0;
+	};
+	52E1BD450ED48AFE0003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
+		name = "Controller.h: 16";
+		rLen = 0;
+		rLoc = 432;
+		rType = 0;
+		vrLen = 463;
+		vrLoc = 0;
+	};
+	52E1BD460ED48AFE0003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC250ED0F4CC0003EAA3 /* Controller.h */;
+		name = "Controller.h: 16";
+		rLen = 0;
+		rLoc = 432;
+		rType = 0;
+		vrLen = 463;
+		vrLoc = 0;
+	};
+	52E1BD470ED48AFE0003EAA3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52E1BC260ED0F4CC0003EAA3 /* Controller.m */;
+		name = "Controller.m: 19";
+		rLen = 0;
+		rLoc = 485;
+		rType = 0;
+		vrLen = 1252;
 		vrLoc = 0;
 	};
 }
