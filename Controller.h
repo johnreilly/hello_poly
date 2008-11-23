@@ -10,9 +10,11 @@
 	IBOutlet UISlider *slider;
 	IBOutlet PolygonView *polygonView;
 	IBOutlet PolygonShape *polygon;
+	NSUserDefaults *defaults;
 }
 - (IBAction)decrease;
 - (IBAction)increase;
 - (IBAction)sliderChanged;
 - (void)updateInterface;
+- (void)changeNumberOfSides:(int)numOfSides;
 @end

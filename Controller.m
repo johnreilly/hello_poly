@@ -3,20 +3,25 @@
 @implementation Controller
 - (IBAction)decrease {
     NSLog(@"decrease clicked");
-	[polygon setNumberOfSides:[numberOfSidesLabel.text integerValue] - 1];
+	[self changeNumberOfSides:[numberOfSidesLabel.text integerValue] - 1];
 	[self updateInterface];
 }
 
 - (IBAction)increase {
     NSLog(@"increase clicked");
-	[polygon setNumberOfSides:[numberOfSidesLabel.text integerValue] + 1];
+	[self changeNumberOfSides:[numberOfSidesLabel.text integerValue] + 1];
 	[self updateInterface];
 }
 
 - (IBAction)sliderChanged {
     NSLog(@"slider changed");
-	[polygon setNumberOfSides:slider.value];
+	[self changeNumberOfSides:slider.value];
 	[self updateInterface];
+}
+
+-(void)changeNumberOfSides:(int)numOfSides {
+	[polygon setNumberOfSides:numOfSides];
+	[defaults setInteger:numOfSides forKey:@"numberOfSides"];
 }
 
 - (void)updateInterface {
@@ -33,9 +38,18 @@
 }
 
 - (void)awakeFromNib {
-	[polygon setMinimumNumberOfSides:2];
-	[polygon setMaximumNumberOfSides:12];
-	[polygon setNumberOfSides:3];
+	
+	//setup defaults
+	defaults = [NSUserDefaults standardUserDefaults];
+	if (![defaults integerForKey:@"numberOfSides"]) {
+		[defaults setInteger:5 forKey:@"numberOfSides"];
+	}
+	
+	NSLog(@"numberOfSides is %d", [defaults integerForKey:@"numberOfSides"]);
+	
+	[polygon setMinimumNumberOfSides:[defaults integerForKey:@"minNumberOfSides"]];
+	[polygon setMaximumNumberOfSides:[defaults integerForKey:@"maxNumberOfSides"]];
+	[polygon setNumberOfSides:[defaults integerForKey:@"numberOfSides"]];
 	
 	slider.minimumValue = polygon.minimumNumberOfSides;
 	slider.maximumValue = polygon.maximumNumberOfSides;
